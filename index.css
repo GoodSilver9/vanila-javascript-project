@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.remaining {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.push_up {
+  width: 375px;
+  height: 375px;
+}
+.push_up_button {
+  width: 320px;
+  height: 44px;
+  background-color: #eee;
+  border-radius: 1000px;
+  border: none;
+  margin-bottom: 48px;
+}
